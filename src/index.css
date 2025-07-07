@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Vazir';
+  src: url('./assets/fonts/Vazir.woff2') format('woff2'),
+       url('./assets/fonts/Vazir.woff') format('woff'),
+       url('./assets/fonts/Vazir.ttf') format('truetype'),
+       url('./assets/fonts/Vazir.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.mySwiper .swiper-pagination {
+  position: static !important;
+  margin-top: 1rem;
+}
+:root{
+  --swiper-theme-color:#ffc451 !important;
+}
+.swiper-pagination-bullet {
+  width: 11px !important;
+  height: 11px !important;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  transform: scale(1.5); 
+}
