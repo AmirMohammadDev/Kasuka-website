@@ -5,25 +5,25 @@ const Section_features = () => {
   const iconData = [
     {
       id: 1,
-      imageSrc: "src/assets/images/icons/book.svg",
+      imageSrc: "public/icons/book.svg",
       titrText:"تبلیغ سختی است",
       lableText: "نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند.",
     },
     {
       id: 2,
-      imageSrc: "src/assets/images/icons/cube.svg",
+      imageSrc: "public/icons/cube.svg",
       titrText:"کدام یک از اینهاست",
       lableText: "کسانی که هوس سیاهان می کنند نمی بینند ، آنها مقصر هستند که خدمات خود را رها کرده اند.",
     },
     {
       id: 3,
-      imageSrc: "src/assets/images/icons/images.svg",
+      imageSrc: "public/icons/images.svg",
       titrText:"یا کور شده است",
       lableText: "یا می پذیرد یا زمانی که هیچ کس از همه اجتناب نمی کند. همه دردهایی که آنها را بیشتر می کند.",
     },
     {
       id: 4,
-      imageSrc: "src/assets/images/icons/shield.svg",
+      imageSrc: "public/icons/shield.svg",
       titrText:"حقیقت مبارک",
       lableText: "آنها بدون تحمل حقیقت در زمان ستایش زندگی از هیچ چیزی پیروی نمی کنند.",
     },
@@ -39,28 +39,28 @@ const Section_features = () => {
                 <Icon_box key={item.id} src={item.imageSrc} titr={item.titrText} lable={item.lableText}/>
             ))}
           {/* <div className="flex gap-5 ">
-                        <img src="src/assets/images/icons/shield.svg" className="w-14"/>
+                        <img src="public/icons/shield.svg" className="w-14"/>
                         <div>
                             <span className="text-xl font-bold mb-3 text-[#444] inline-block">تبلیغ سختی است</span>
                             <p className="text-[#888] font-semibold">نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند</p>
                         </div>
                     </div>
                     <div className="flex gap-5 ">
-                        <img src="src/assets/images/icons/shield.svg" className="w-14"/>
+                        <img src="public/icons/shield.svg" className="w-14"/>
                         <div>
                             <span className="text-xl font-bold mb-3 text-[#444] inline-block">تبلیغ سختی است</span>
                             <p className="text-[#888] font-semibold">نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند</p>
                         </div>
                     </div>
                     <div className="flex gap-5 ">
-                        <img src="src/assets/images/icons/shield.svg" className="w-14"/>
+                        <img src="public/icons/shield.svg" className="w-14"/>
                         <div>
                             <span className="text-xl font-bold mb-3 text-[#444] inline-block">تبلیغ سختی است</span>
                             <p className="text-[#888] font-semibold">نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند</p>
                         </div>
                     </div>
                     <div className="flex gap-5 ">
-                        <img src="src/assets/images/icons/shield.svg" className="w-14"/>
+                        <img src="public/icons/shield.svg" className="w-14"/>
                         <div>
                             <span className="text-xl font-bold mb-3 text-[#444] inline-block">تبلیغ سختی است</span>
                             <p className="text-[#888] font-semibold">نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند</p>
