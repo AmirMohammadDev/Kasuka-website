@@ -1,4 +1,4 @@
-import About_us from "./about-us/about-us";
+import About_us from "./about-us/About-us";
 
 const Body = () => {
     return ( 
