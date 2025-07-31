@@ -1,4 +1,4 @@
-import Icon_box from "./icon-box";
+import Icon_box from "./Icon-box";
 
 
 const Section_features = () => {
